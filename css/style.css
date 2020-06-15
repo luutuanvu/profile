@@ -249,14 +249,25 @@ h1, h2, h3, h4, h5, h6 {
     border: 2px solid #fff;
     background: #fff;
     color: #333333 !important; }
+    .gallery-container{
+      margin: 0px -2% 0px -2%;
+    }
+    .gallery-container:after,
+    .gallery-container:before{
+      content: '';
+      display: table;
+      clear: both;
+    }
   #colorlib-main-nav .gallery {
     float: left;
-    width: 50%;
+    width: 46%;
     height: 150px;
     position: relative;
     display: table;
     z-index: 0;
-    text-decoration: none; }
+    text-decoration: none; 
+    margin: 2%;
+  }
     @media screen and (max-width: 768px) {
       #colorlib-main-nav .gallery {
         width: 25%; } }
